@@ -1,5 +1,5 @@
 
-function sumOfNum() {
+function getSumOfNum() {
 
    let sum = 0;
    
@@ -12,11 +12,12 @@ function sumOfNum() {
     
 };
 
-let res = sumOfNum();
+let result = getSumOfNum();
 
-console.log(res(4));
-console.log(res(10));
-console.log(res(2));
+console.log(result(4));
+console.log(result(10));
+console.log(result(2));
+console.log(result(12));
 
 
 
